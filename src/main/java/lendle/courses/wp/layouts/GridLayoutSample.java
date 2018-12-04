@@ -6,6 +6,7 @@
 package lendle.courses.wp.layouts;
 
 import java.awt.BorderLayout;
+import java.awt.Component;
 import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import javax.swing.JButton;
@@ -29,9 +30,13 @@ public class GridLayoutSample {
         frame.setSize(500, 500);
         GridLayout layout=new GridLayout(3, 2);
         frame.setLayout(layout);
+        JButton clickButton = null;
         
         //1. add 6 CustomComponent to the frame
         //2. resize the frame to see the effect
+        for(int i =0;i<=5;i++){
+            \  
+        }
         
         //////////////////////////////////////////////////////////////////////
         
